@@ -34,5 +34,15 @@ public abstract class Shape {
 
     public abstract double getArea();
 
-    public abstract double gerPerimeter();
+    public abstract double getPerimeter();
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "x=" + x +
+                ", y=" + y +
+                ", colour='" + colour + '\'' +
+                ", visible=" + visible +
+                '}';
+    }
 }
